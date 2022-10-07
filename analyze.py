@@ -8,7 +8,6 @@ import gensim
 from gensim.utils import simple_preprocess
 from nltk.corpus import stopwords
 import gensim.corpora as corpora
-from pprint import pprint
 import pyLDAvis
 import pyLDAvis.gensim_models
 
@@ -16,9 +15,6 @@ import pyLDAvis.gensim_models
 # nltk.download('stopwords')
 # nltk.download('averaged_perceptron_tagger')
 # nltk.download('words')
-
-#if not sys.warnoptions:
-#    warnings.simplefilter("ignore")
 
 stop_words = stopwords.words('english')
 words = set(nltk.corpus.words.words())
